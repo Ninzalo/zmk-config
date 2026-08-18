@@ -52,6 +52,26 @@
             bindings = <&mo 5>;
             key-positions = <40 37>;
         };
+
+        zoom_in {
+            bindings = <&kp LS(LG(EQUAL))>;
+            key-positions = <13 16 40 31>;
+        };
+
+        zoom_out {
+            bindings = <&kp LS(LG(MINUS))>;
+            key-positions = <40 28 22>;
+        };
+
+        next_space {
+            bindings = <&kp LC(RIGHT_ARROW)>;
+            key-positions = <37 14 21>;
+        };
+
+        prev_space {
+            bindings = <&kp LC(LEFT_ARROW)>;
+            key-positions = <37 14 18>;
+        };
     };
 
     macros {
