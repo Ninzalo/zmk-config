@@ -106,6 +106,8 @@
 &kp ESCAPE          &kp Z                &kp X                    &kp C          &kp V              &kp B        &kp N         &kp M               &kp COMMA         &kp DOT               &kp RIGHT_BRACKET        &kp SLASH
                                                                   &kp BACKSPACE  &mo 4              &kp SPACE    &kp RET       &mo 2               &kp BACKSLASH
             >;
+
+            label = "QWERTY";
         };
 
         hyper_layer {
@@ -115,6 +117,8 @@
 &kp ESCAPE  &kp LS(LA(LC(LG(Z))))  &kp LS(LA(LC(LG(X))))  &kp LS(LA(LC(LG(C))))  &kp LS(LA(LC(LG(V))))  &kp LS(LA(LC(LG(B))))    &kp LS(LC(LA(LG(N))))  &kp LG(LC(LA(LS(M))))  &kp LS(LA(LC(LG(COMMA))))      &kp LS(LA(LC(LG(DOT))))  &kp LS(LA(LC(LG(RIGHT_BRACKET))))  &kp LS(LA(LC(LG(SLASH))))
                                                           &kp BACKSPACE          &mo 4                  &kp SPACE                &kp RET                &mo 2                  &kp LS(LA(LC(LG(BACKSLASH))))
             >;
+
+            label = "QWERTY HYPER";
         };
 
         number_layer {
@@ -124,6 +128,8 @@
 &none  &none                       &none                       &none                   &kp MINUS                 &none        &none    &kp EQUAL                  &none                    &kp DOT                      &none                        &kp FSLH
                                                                &kp BSPC                &trans                    &kp SPACE    &kp RET  &trans                     &kp BSLH
             >;
+
+            label = "NUMBER";
         };
 
         number_fn_layer {
@@ -144,6 +150,8 @@
 &none  &none     &none      &none     &none      &none    &none     &none     &none     &none      &none  &none
                             &none     &trans     &none    &kp RET   &trans    &none
             >;
+
+            label = "ARROW";
         };
 
         sys_layer {
@@ -153,6 +161,8 @@
 &none       &none           &none         &out OUT_USB  &out OUT_BLE  &none    &none  &none  &none  &none  &none  &none
                                           &none         &none         &none    &none  &none  &none
             >;
+
+            label = "SYSTEM";
         };
     };
 };
